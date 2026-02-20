@@ -1,4 +1,4 @@
-CATALOGUE_HOST: catalogue.ksrdaws84s.site
-REDIS_HOST: redis.ksrdaws84s.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.ksrdaws84s.site
+REDIS_HOST: redis-{{ env }}.ksrdaws84s.site
 USER_HOST: user.ksrdaws84s.site
 CART_HOST: cart.ksrdaws84s.site
